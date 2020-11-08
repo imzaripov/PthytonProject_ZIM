@@ -15,7 +15,7 @@ n = int(input('Введите натуральное число:'))
 while n != 10 ** 10:
     for el in range(len(ls)):
         if ls[el] == n:
-            ls.insert(el + 1, n)
+            ls.insert(el + 1, float(n))
             break
         elif ls[0] < n:
             ls.insert(0, n)
