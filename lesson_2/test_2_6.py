@@ -22,11 +22,11 @@ while n <= goods:
     an_element1.append(info.get('название'))
     an_element2.append(info.get('цена'))
     an_element3.append(info.get('количество'))
-    an_element4.append(info.get('eд.'))
+    an_element4.append(info.get('eд'))
     n += 1
 an['название'] = an_element1
 an['цена'] = an_element2
 an['количество'] = an_element3
-an['eд.'] = list(set(an_element4))
+an['eд'] = list(set(an_element4))
 print(ls)
 print(an)
